@@ -1,15 +1,12 @@
 import React from 'react';
 import Header from '../components/home-page-components/header/header-component';
+import TopContentSection from '../components/home-page-components/top-content-section/top-content-section';
 
 const Home = () => {
     return (
       <>
         <Header />
-        <div>
-          <h1>Welcome to My Pokemon Website</h1>
-          <p>This is a simple home page built with React.</p>
-          <p>Feel free to explore!</p>
-        </div>
+        <TopContentSection />
       </>
   );
 };

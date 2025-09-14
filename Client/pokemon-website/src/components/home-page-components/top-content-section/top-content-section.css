@@ -1,0 +1,5 @@
+@layer components {
+    .outer-most-main-container { @apply flex gap-4 p-4; } /* Makes children side by side */
+    .pokeworld-container-left  { @apply flex-1 bg-sky-100 p-4; } /* Left section */
+    .home-img-right            { @apply flex-1 bg-sky-200 p-4; } /* Right section */
+}

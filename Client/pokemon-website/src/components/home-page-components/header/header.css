@@ -1,6 +1,7 @@
 @layer components {
   .site-header { @apply bg-sky-600 text-white shadow sticky top-0 z-50; }
-  .site-nav    { @apply max-w-6xl mx-auto flex items-center justify-between px-4 py-3; }
-  .nav-links   { @apply flex items-center gap-6; }
+  /* Applied justify-center over justify-between as between spaces its children apart and only nav links is its only child*/
+  .site-nav    { @apply max-w-6xl mx-auto flex items-center justify-center px-4 py-3; }
+  .nav-links   { @apply flex justify-center items-center gap-6; }
   .nav-link    { @apply text-black visited:text-black hover:text-black transition-colors; }
 }
