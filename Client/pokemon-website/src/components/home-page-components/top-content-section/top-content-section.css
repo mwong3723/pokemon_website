@@ -2,4 +2,9 @@
     .outer-most-main-container { @apply flex gap-4 p-4; } /* Makes children side by side */
     .pokeworld-container-left  { @apply flex-1 bg-sky-100 p-4; } /* Left section */
     .home-img-right            { @apply flex-1 bg-sky-200 p-4; } /* Right section */
+    .pkm-home-img              { @apply rounded-2xl}
+
+
+    .home-page-pokedex-button  { @apply rounded-b-lg bg-blue-500 border-gray-400 px-4 py-2}
+
 }
